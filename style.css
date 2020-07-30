@@ -4,44 +4,77 @@ head {
   color: #000000;
 }
 body {
-  background-image: linear-gradient(to bottom left, hsla(189, 76%, 56%, 0.3), rgb(63, 133, 245));
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: rgb(18, 109, 255);
+  font-family: "Robotica", sans-serif;
   text-align: center;
+}
+.topnav{
+  background-color: white;
+  overflow: hidden;
+}
+.topnav a{
+  float: Left;
+  color: rgb(18, 109, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover{
+  background-color: rgb(114, 217, 243);
+  color: white;
+}
+.topnav a.active{
+  background-color: rgb(255,234,0);
+  color: black;
+}
+.info p{
+  text-align: center;
+  color: white;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.info a{
+  float: center;
+  background-color:rgb(255,234,0);
+  color: black;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 20;
+}
+.info a:hover{
+  background-color: rgb(114, 217, 243);
+  color: white;
 }
 h1 {
   font-weight: normal;
   font-family: impact;
   font-size: 40px;
-  color:  rgb(255,255,255);
-  text-shadow: -1px 0 rgb(18, 109, 255), 0 1px rgb(18, 109, 255), 1px 0 rgb(18, 109, 255), 0 -1px rgb(18, 109, 255);
+  color:  white;
 }
 h2 {
   font-weight: bold;
   font-size: 20px;
-  color:  rgb(0,165,0);
+  color:  rgb(114, 217, 243);
 }
 h3 {
   font-weight: bold;
   font-size: 20px;
-  color:  rgb(0,0,255);
+  color: rgb(255,234,0);
 }
 h4 {
   font-weight: bold;
   font-size: 20px;
-  color: rgb(255,234,0);
+  color:  rgb(142, 223, 104);
 }
 h5 {
   font-weight: bold;
-  font-size: 20px;
-  color:  rgb(89, 0, 255);
-}
-h7 {
-  font-weight: bold;
-  font-size: 10px;
+  font-size: 12px;
   color: rgb(255, 255, 255);
 }
-h8 {
+h6 {
   font-weight: bold;
-  font-size: 10px;
+  font-size: 12px;
   color:  rgb(255, 255, 255);
 }
