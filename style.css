@@ -1,51 +1,47 @@
 head {
-  font-family: sans-serif;
   font-size: 20px;
   font-weight: normal;
   color: #000000;
 }
 body {
-  background-color: #212121;
+  background-image: linear-gradient(to bottom left, hsla(189, 76%, 56%, 0.3), rgb(63, 133, 245));
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
 }
 h1 {
-  font-family: sans-serif;
-  font-weight: bold;
+  font-weight: normal;
+  font-family: impact;
   font-size: 40px;
-  color:  #FF0000;
+  color:  rgb(255,255,255);
+  text-shadow: -1px 0 rgb(18, 109, 255), 0 1px rgb(18, 109, 255), 1px 0 rgb(18, 109, 255), 0 -1px rgb(18, 109, 255);
 }
 h2 {
-  font-family: sans-serif;
   font-weight: bold;
   font-size: 20px;
-  color:  #00FF00;
+  color:  rgb(0,165,0);
 }
 h3 {
-  font-family: sans-serif;
   font-weight: bold;
   font-size: 20px;
-  color:  #0000FF
+  color:  rgb(0,0,255);
 }
 h4 {
-  font-family: sans-serif;
   font-weight: bold;
   font-size: 20px;
-  color: #FFEA00
+  color: rgb(255,234,0);
 }
 h5 {
-  font-family: sans-serif;
   font-weight: bold;
   font-size: 20px;
-  color:  #FF00FF
-}
-h6 {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  color:  #FFA500
+  color:  rgb(89, 0, 255);
 }
 h7 {
-  font-family: sans-serif;
   font-weight: bold;
-  font-size: 20px;
-  color:  #00FFFF
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+}
+h8 {
+  font-weight: bold;
+  font-size: 10px;
+  color:  rgb(255, 255, 255);
 }
