@@ -72,19 +72,21 @@ function showError(error){
   notificationElement.innerHTML = `<p> ${error.message} </p>`;
 }
 
-// Get data from the OpenSky Weather API.
+// Get geolocation data from the OpenSky Weather API.
 function getWeather(latitude, longitude){
   let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
   fetch(api).then(function(response){
     let data = response.json();
     return data;
   })
+  // Then replace placeholder/old data with new data. 
   .then(function(data){
   weather.temperature.value = Math.floor(data.main.temp - KELVIN);
   weather.description = data.weather[0].description;
   weather.city = data.name;
   weather.country = data.sys.country;
   })
+  // Then display the updated information.
   .then(function(){
     displayWeather();
   });
