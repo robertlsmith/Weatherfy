@@ -89,3 +89,10 @@ function getWeather(latitude, longitude){
     displayWeather();
   });
 }
+
+// Display weather data to the interface.
+function displayWeather(){
+  tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
+  descElement.innerHTML = weather.description;
+  locationElement.innerHTML = `${weather.city}, ${weather.country}`;
+}
