@@ -7,7 +7,7 @@ const locationElement = document.querySelector(".location p");
 
 const KELVIN = 273;
 // OpenSky Key
-const key = "63739e5eab0f60ef4ab9478884e4077c";
+const key = "OPENWEATHER_API_KEY_PLACEHOLDER";
 
 // Store the weather data.
 const weather = {
